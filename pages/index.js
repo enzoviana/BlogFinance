@@ -5,6 +5,10 @@ import { getPosts } from '../services';
 export default function Home({ posts }) {
   return (
     <div className="container mx-auto px-10 mb-8">
+      <head>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1139991563947565"
+     crossorigin="anonymous"></script>
+      </head>
       <FeaturedPosts />
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
         <div className="lg:col-span-8 col-span-1">
