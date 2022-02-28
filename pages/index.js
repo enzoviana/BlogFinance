@@ -1,4 +1,4 @@
-import { FeaturedPosts } from '../sections/index.js.gz';
+import { FeaturedPosts } from '../sections/index';
 import { PostCard, Categories, PostWidget } from '../components';
 import { getPosts } from '../services';
 
